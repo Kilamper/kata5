@@ -7,6 +7,6 @@ public interface Command {
     }
     interface Output {
         int responseCode();
-        int result();
+        String result();
     }
 }
